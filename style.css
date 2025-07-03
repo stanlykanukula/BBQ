@@ -1,0 +1,377 @@
+.header-section{
+    float:left;
+    width:100%;
+    background-color: black;
+    color:white;
+}
+.header-section ul{
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 2%;
+
+}
+.header-section li{
+    display:inline;
+    margin: 0% 5% 0% 0%;
+}
+.hero-section{
+    float:left;
+    width:100%;
+}
+.hero-section1{
+    float: left;
+    text-align: center;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('./intro-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding:2.5% 0% 2.5% 0%;
+}
+
+.hero-section1 h1{
+    font-size:100px;
+    padding:0% 0% 10% 0%;
+    font-family: "Rochester", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+}
+.hero-section1 p{
+    color:white;
+    font-size: 20px;
+}
+.special-section h1{
+    text-align: center;
+    text-transform: uppercase;
+    float:left;
+    margin:5% 40% 5% 40%;
+}
+.sub-specialsection1{
+    float:left;
+    width:33%;
+    text-align: center;
+}
+.sub-specialsection2{
+    float:left;
+    width:33%;
+    text-align: center;
+}
+.sub-specialsection3{
+    float:left;
+    width:33%;
+    text-align: center;
+}
+.pic{
+    width:75%;
+}
+.sub-specialsection1 p{
+    float:left;
+    text-align: center;
+    width:50%;
+    margin-left: 20%;
+}
+.sub-specialsection2 p{
+    float:left;
+    text-align: center;
+    width:50%;
+    margin-left: 20%;
+}
+.sub-specialsection3 p{
+    float:left;
+    text-align: center;
+    width:50%;
+    margin-left: 20%;
+}
+.class3{
+    width:100%;
+    display: flex;
+    height: 600px;
+}
+.pic{
+    width: 50%;
+}
+.pic img{
+    width: 750px;
+    height: 500px;
+    margin: 20px 0px 0px 40px;
+}
+.text{
+    width: 20%;
+    margin-left: 270px;
+    margin-top: 50px;
+}
+.text p{
+    color: rgb(170, 167, 167);
+    font-size: 18px;
+}
+
+.heading2{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.class4{
+    display: flex;
+    margin-left: 7px;
+    margin-top: 100px;
+    height: 300px;
+}
+.class41 img{
+    width: 375px;
+}
+.class42 img{
+    width: 375px;
+}
+.class43 img{
+    width: 375px;
+}
+.class44 img{
+    width: 375px;
+}
+.class5{
+    margin-top: 25px;
+    display: flex;
+    height: 500px;
+}
+.text1{
+    padding-top: 20px;
+    width: 25%;
+    margin-left: 200px;
+    font-size: 19px;
+}
+.text1 p{
+    padding-top: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.chef{
+    width: 50%;
+}
+.chef img{
+    padding: 15px 180px 0px 120px;
+    height: 390px;
+    width:600px;
+}
+h2{
+    text-decoration: underline;
+    font-weight: 60;
+}
+.main{
+    background-color: rgb(21, 21, 21);
+    height: 350px;
+    color: rgb(94, 93, 93);
+    display: flex;
+}
+h2{
+    font-size: 20px;
+}
+.main1{
+    text-align: center;
+    text-decoration: underline;
+    width: 550px;
+    padding-top: 90px;
+    height: 220px;
+}
+.main2{
+    text-align: center;
+    text-decoration: underline;
+    width: 550px;
+    padding-top: 90px;
+    height: 220px;
+}
+.main3{
+    text-align: center;
+    text-decoration: underline;
+    width: 550px;
+    padding-top: 90px;
+    height: 220px;
+}
+.line{
+    text-align: center;
+    color: rgb(119, 119, 119);
+    background-color:  rgb(21, 21, 21);
+    height: 80px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.information{
+    height: 350px;
+    background-color:  rgb(21, 21, 21);
+    padding: 0% 0% 1% 25%;
+}
+#name{
+    background-color: rgb(105, 105, 105);
+    width: 360px;
+    height: 35px;
+    margin: 0% 2% 1.5% 0% ;
+    border: 1px solid rgb(105, 105, 105);
+    color: rgb(221, 221, 221);
+    font-size: 18px;
+}
+#message{
+    background-color: rgb(105, 105, 105);
+    margin: 0% 2% 2% 0%;
+    border: 1px solid rgb(105, 105, 105);
+    color: rgb(221, 221, 221);
+    font-size: 18px;
+    padding-bottom: 150px;
+    padding-right:530px;
+}
+#email{
+    background-color: rgb(105, 105, 105);
+    width: 360px;
+    height: 35px;
+    margin-right: 2%;
+    border: 1px solid rgb(105, 105, 105);
+    margin-bottom: 1%;
+    color: rgb(221, 221, 221);
+    font-size: 18px;
+}
+#submit{
+    background-color: rgb(21, 21, 21);
+    width: 150px;
+    height: 50px;
+    margin:0% 2% 1% 27%;
+    border: 2px solid rgb(105, 105, 105);
+    color: rgb(105, 105, 105);
+}
+.footer{
+    background-color: black;
+    height: 80px;
+    color: rgb(105, 105, 105);
+    padding-top: 50px;
+    padding-left: 150px;
+}
+/****************responsiveness code******************/
+@media screen and (max-width: 768px) {
+    .header-section ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .special-section h1 {
+        margin: 5% auto;
+        width: 100%;
+    }
+
+    .sub-specialsection1,
+    .sub-specialsection2,
+    .sub-specialsection3 {
+        width: 90%;
+        float: none;
+        margin: 20px auto;
+    }
+
+    .sub-specialsection1 p,
+    .sub-specialsection2 p,
+    .sub-specialsection3 p {
+        width: 90%;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .class3 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .pic img {
+        width: 90%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .text {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .class4 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .class41 img,
+    .class42 img,
+    .class43 img,
+    .class44 img {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .class5 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .text1 {
+        width: 90%;
+        margin: 20px auto;
+        padding-top: 0;
+        font-size: 18px;
+    }
+
+    .chef img {
+        width: 90%;
+        height: auto;
+        padding: 0;
+        margin: 20px 0;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .main1,
+    .main2,
+    .main3 {
+        width: 90%;
+        padding-top: 20px;
+    }
+
+    .line {
+        font-size: 18px;
+        padding: 20px 10px;
+        height: auto;
+    }
+
+    .information {
+        padding: 20px;
+        height: auto;
+    }
+
+    #name,
+    #email,
+    #message {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    #message {
+        padding-right: 0;
+        padding-bottom: 100px;
+    }
+
+    #submit {
+        margin-left: 0;
+    }
+
+    .footer {
+        padding-left: 20px;
+        padding-top: 30px;
+        font-size: 14px;
+        text-align: center;
+    }
+}
